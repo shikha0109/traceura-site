@@ -1,0 +1,23 @@
+# Traceura
+
+> Traceura is an early-stage company building decision intelligence and AI governance software for regulated life sciences. It helps GxP quality and computer system validation (CSV) teams assess change impact, right-size validation scope, find evidence gaps before review, and record the reasoning behind each decision. AI recommends; qualified people decide.
+
+## What Traceura is building
+- Change-impact assessment reasoned against a company's own SOPs and system registry
+- Risk-based validation scope recommendations, in line with FDA Computer Software Assurance principles
+- Evidence-gap detection before QA review
+- Decision traceability: each decision linked to the rule, requirement, source document and approving reviewer
+- Human-in-the-loop by design: AI never approves; reviewers approve, edit or override
+
+## Who it is for
+- Heads of CSV and validation, QA and site quality, digital and IT quality, and quality systems teams
+- Pharmaceutical, biotech, CDMO and medical-device manufacturers
+
+## Status
+- Early stage. Traceura is looking for conversations with quality and validation leaders. It does not claim customers, certifications or regulatory approvals.
+
+## Contact
+- Website: https://traceura.com
+- Book a 20-minute discovery call: https://traceura.com/#contact
+- Email: founder@traceura.com
+- LinkedIn: https://www.linkedin.com/company/traceura
