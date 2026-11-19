@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-S67e9AVJ8MRxm5piXrGDcsjuwCQyPbbQvneUsEjSmrQ='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src https://formsubmit.co; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action https://formsubmit.co; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Change Impact Challenge | Traceura</title>
+<meta name="description" content="A free, 2-hour challenge for validation, CSV and QA professionals: review draft impact assessments for realistic fictional GxP changes and get a personal score from an independent expert panel.">
+<link rel="canonical" href="https://traceura.com/challenge.html">
+<meta property="og:title" content="The Change Impact Challenge">
+<meta property="og:description" content="A free, 2-hour challenge for validation, CSV and QA professionals: review draft impact assessments for realistic fictional GxP changes and get a personal score from an independent expert panel.">
+<meta property="og:url" content="https://traceura.com/challenge.html">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://traceura.com/assets/traceura-logo.jpg">
+<meta name="theme-color" content="#02142d">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#02142d;--navy-2:#061d3d;--edge:rgba(255,255,255,.08);--ink:#0b1527;--body:#2f3e58;--muted:#62728d;--line:#e2e8f1;--soft:#f5f8fc;--cyan:#22d3ee;--cyan-ink:#0b7a92}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:#fff;line-height:1.7;-webkit-font-smoothing:antialiased}
+  a{color:var(--cyan-ink)}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+  header{position:sticky;top:0;z-index:20;background:rgba(2,20,45,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--edge)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:70px;gap:20px}
+  .brand{display:flex;align-items:center;gap:11px;text-decoration:none}
+  .logo-mark{width:34px;height:34px;object-fit:contain}.logo-word{height:18px;width:auto}
+  .btn{display:inline-block;padding:10px 18px;border-radius:10px;font-weight:600;font-size:14px;text-decoration:none;background:var(--cyan);color:#04213a}
+  .hero{background:linear-gradient(180deg,var(--navy),var(--navy-2));color:#fff;padding:72px 0 64px}
+  .crumb{font-size:13px;color:#8ea2c3;margin-bottom:18px}.crumb a{color:#8ea2c3;text-decoration:none}
+  .hero h1{font-family:Sora,sans-serif;font-size:clamp(30px,4.2vw,46px);line-height:1.15;letter-spacing:-.015em;max-width:860px}
+  .dek{color:#bccbe2;font-size:19px;max-width:720px;margin-top:18px}
+  .meta{color:#8ea2c3;font-size:14px;margin-top:22px}
+  article{max-width:740px;margin:0 auto;padding:56px 24px 40px}
+  article h2{font-family:Sora,sans-serif;font-size:26px;line-height:1.25;margin:44px 0 14px;color:var(--ink)}
+  article h3{font-size:18px;margin:28px 0 8px}
+  article p{color:var(--body);font-size:17px;margin:0 0 16px}
+  article ul,article ol{margin:0 0 18px 22px;color:var(--body);font-size:17px}
+  article li{margin:6px 0}
+  .key{background:var(--soft);border-left:3px solid var(--cyan);border-radius:8px;padding:18px 20px;margin:24px 0}
+  .key p{margin:0}
+  table{width:100%;border-collapse:collapse;margin:16px 0 24px;font-size:15px}
+  th,td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--line)}
+  th{background:var(--soft);font-weight:600;color:var(--ink)}
+  td{color:var(--body)}
+  .check li{list-style:none;position:relative;padding-left:4px}
+  .check{margin-left:6px}
+  .check li::before{content:"\2610";position:absolute;left:-22px;color:var(--cyan-ink)}
+  .cta{background:linear-gradient(135deg,var(--navy),#0d2b57);color:#fff;border-radius:18px;padding:34px;margin:44px 0 10px}
+  .cta h2{color:#fff;margin:0 0 10px;font-size:24px}
+  .cta p{color:#bccbe2;margin-bottom:20px}
+  .note{font-size:14px!important;color:var(--muted)!important;border-top:1px solid var(--line);padding-top:18px;margin-top:34px}
+  .sources li{font-size:15px}
+  footer{padding:36px 0;color:#8ea2c3;font-size:14px;background:var(--navy)}
+  footer .row{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+  footer a{color:#8ea2c3;text-decoration:none;margin-left:18px}
+  .form{background:var(--soft);border:1px solid var(--line);border-radius:16px;padding:26px;margin:28px 0}
+  .form .row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .form label{display:block;font-size:14px;font-weight:600;color:var(--ink);margin:12px 0 6px}
+  .form input,.form select{width:100%;padding:11px 12px;border:1px solid #cbd5e3;border-radius:10px;font:inherit;font-size:15px;background:#fff;color:var(--ink)}
+  .form input:focus,.form select:focus{outline:2px solid var(--cyan);outline-offset:1px}
+  .form .tick{display:flex;gap:10px;align-items:flex-start;font-weight:400;color:var(--body);margin-top:14px}
+  .form .tick input{width:auto;margin-top:5px}
+  .form button{margin-top:18px;border:0;cursor:pointer;font:inherit;font-weight:600}
+  .form button:disabled{opacity:.6;cursor:default}
+  .hp{position:absolute;left:-9999px}
+  .form-status{margin-top:12px;font-size:15px}.form-status.ok{color:#0f7a43}.form-status.err{color:#b42318}
+  @media (max-width:640px){.form .row2{grid-template-columns:1fr}}
+  @media (max-width:640px){.wrap{padding:0 16px}article{padding:40px 16px}.hero{padding:52px 0 44px}table{font-size:14px}th,td{padding:10px 8px}.nav .btn{display:none}footer a{margin:0 14px 0 0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="./" aria-label="Traceura home"><img class="logo-mark" src="assets/traceura-mark.png" alt="" width="34" height="34"><img class="logo-word" src="assets/traceura-wordmark.png" alt="Traceura" height="18"></a>
+    <a class="btn" href="#register">Register</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="crumb"><a href="./">Traceura</a> / Change Impact Challenge</p>
+    <h1>The Change Impact Challenge</h1>
+    <p class="dek">Three questions decide every GxP change: what does it affect, how much testing does it need, and why? Test your judgement on realistic cases and get a personal score from an independent panel of experienced practitioners.</p>
+    <p class="meta">Free · About 2 hours · Open [opening date] to [closing date]</p>
+  </div>
+</section>
+
+<article>
+  <h2>How it works</h2>
+  <ol>
+    <li><strong>Register below.</strong> We'll email you the case pack: 10 change cases at a fictional company, Quillmere Pharma.</li>
+    <li><strong>Pick any 3 cases.</strong> Each comes with a draft impact assessment written by a busy colleague. Some drafts miss real impacts. Some ask for far more testing than the change needs.</li>
+    <li><strong>Review the drafts</strong> as you would at work: what the change affects, what the draft gets wrong, and the validation scope you'd recommend.</li>
+    <li><strong>Get your results:</strong> a personal score report, the panel's full answer key and reasoning, and a certificate.</li>
+  </ol>
+
+  <h2>What you get</h2>
+  <ul>
+    <li>Independent feedback on your judgement, case by case, from an expert panel.</li>
+    <li>The panel's answer key: a practical lesson in risk-based, proportionate validation.</li>
+    <li>A participation certificate, and an optional named place in the results.</li>
+    <li>An invitation to the results webinar, and the results report before it's published.</li>
+  </ul>
+
+  <h2>How entries are scored</h2>
+  <table>
+    <tr><th>Area</th><th>Points</th></tr>
+    <tr><td>Affected systems, documents and processes identified</td><td>30</td></tr>
+    <tr><td>Problems in the draft found</td><td>30</td></tr>
+    <tr><td>Validation scope proportionate to risk, neither too little nor too much</td><td>20</td></tr>
+    <tr><td>Quality of the written rationale</td><td>20</td></tr>
+  </table>
+
+  <div class="key"><p><strong>Traceura takes part too.</strong> A human reviewer using Traceura completes all 10 cases and is scored the same way. After the challenge closes, we'll publish its answers in full, including anything it missed.</p></div>
+
+  <h2>For quality and CSV managers: the team edition</h2>
+  <p>Give three experienced reviewers the same change and you'll often get three different assessments. In the free team edition, everyone in your team completes the same 3 cases, and you receive an anonymous report showing where your team agrees, where it differs, and how it compares with the panel. No company data is involved. Choose “Team edition” below, or email <a href="mailto:founder@traceura.com">founder@traceura.com</a>.</p>
+
+  <h2 id="register">Register</h2>
+  <form id="challenge-form" class="form" action="https://formsubmit.co/ajax/founder@traceura.com" method="POST" novalidate>
+    <input type="hidden" name="_subject" value="Change Impact Challenge registration">
+    <input type="hidden" name="_template" value="table">
+    <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="row2">
+      <div><label for="c-name">Full name</label><input id="c-name" name="name" required autocomplete="name"></div>
+      <div><label for="c-email">Work email</label><input id="c-email" name="email" type="email" required autocomplete="email"></div>
+      <div><label for="c-company">Company</label><input id="c-company" name="company" required autocomplete="organization"></div>
+      <div><label for="c-role">Role</label><input id="c-role" name="role" required autocomplete="organization-title"></div>
+    </div>
+    <label for="c-edition">I'd like to enter</label>
+    <select id="c-edition" name="edition">
+      <option>As an individual</option>
+      <option>Team edition (I manage a team)</option>
+    </select>
+    <label class="tick"><input type="checkbox" name="terms" value="agreed" required> I agree to the terms of participation below, and I'll use only the case pack, with no documents or data from my employer.</label>
+    <label class="tick"><input type="checkbox" name="updates" value="yes"> Traceura may contact me about its work after the challenge (optional).</label>
+    <button class="btn" type="submit">Register for the challenge</button>
+    <p class="form-status" role="status" aria-live="polite"></p>
+  </form>
+
+  <h2>Terms of participation</h2>
+  <ol>
+    <li>The Change Impact Challenge is run by Traceura. Taking part is free and involves no purchase or obligation.</li>
+    <li>All companies, systems, people and documents in the case pack are fictional. Any resemblance to a real organisation is coincidental.</li>
+    <li>You must not use, copy, upload or refer to any document, data or information belonging to your employer or any other organisation. Entries must be your own work, based only on the case pack and your general knowledge.</li>
+    <li>Entries are scored by an independent panel against an agreed answer key. The panel's scores are final.</li>
+    <li>A human reviewer using Traceura's software also enters. Its answers and scores will be published in full.</li>
+    <li>Results are published in anonymous, aggregated form. Your name is published only if you agree on your entry.</li>
+    <li>Traceura may quote short, anonymous extracts from entries in the results report.</li>
+    <li>Traceura may change or cancel the challenge if necessary, and will tell registered participants.</li>
+  </ol>
+  <p class="note">Privacy: we collect your name, work email, company and role to run the challenge, send you the case pack and your results, and invite you to the results webinar. We contact you about Traceura afterwards only if you tick the optional box. To have your details deleted, email founder@traceura.com. We don't sell or share your details outside the challenge team and judges.</p>
+</article>
+
+<footer>
+  <div class="wrap row">
+    <span>© 2026 Traceura · Decision Intelligence for Regulated Enterprises</span>
+    <nav><a href="./">Home</a><a href="./#contact">Contact</a><a href="https://www.linkedin.com/company/traceura" rel="noopener">LinkedIn</a></nav>
+  </div>
+</footer>
+<script>
+  (function(){
+    var f=document.getElementById('challenge-form'); if(!f) return;
+    var st=f.querySelector('.form-status'), btn=f.querySelector('button[type=submit]');
+    f.addEventListener('submit',function(e){
+      e.preventDefault();
+      if(!f.checkValidity()){ st.className='form-status err'; st.textContent='Please fill in your name, work email, company and role, and tick the terms box.'; return; }
+      if(f.botcheck.checked) return;
+      btn.disabled=true; st.className='form-status'; st.textContent='Sending…';
+      var data={}; new FormData(f).forEach(function(v,k){ if(k!=='botcheck') data[k]=v; });
+      data._replyto=data.email;
+      fetch(f.action,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)})
+        .then(function(r){return r.json().then(function(j){return {ok:r.ok&&(j.success===true||j.success==='true')};});})
+        .then(function(r){
+          if(r.ok){ f.reset(); st.className='form-status ok'; st.textContent='Thank you. You’re registered, and your case pack will arrive by email within one working day.'; }
+          else { throw 0; }
+        })
+        .catch(function(){ st.className='form-status err'; st.innerHTML='Sorry, that didn’t send. Please email <a href="mailto:founder@traceura.com" style="color:inherit">founder@traceura.com</a>.'; })
+        .then(function(){ btn.disabled=false; });
+    });
+  })();
+</script>
+</body>
+</html>
