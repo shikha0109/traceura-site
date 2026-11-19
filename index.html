@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-e5wo+qFsF6Zx9nC3KUPCQCZHjuEKDqVJj1EqkivuAKA='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src https://api.web3forms.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action https://api.web3forms.com; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-T12hlNAdQPIqZ9M3O4h5eYVf5OClDrUBE+LQ5rdbn88='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src https://formsubmit.co; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action https://formsubmit.co; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Traceura — Decision Intelligence for Regulated Enterprises</title>
@@ -245,7 +245,7 @@
       <li><a href="#who">Who it's for</a></li>
       <li><a href="#why">Why Traceura</a></li>
     </ul>
-    <a class="btn btn-primary" href="#contact">Book a conversation</a>
+    <a class="btn btn-primary" href="#contact">Book a discovery call</a>
   </div>
 </header>
 
@@ -259,7 +259,7 @@
         <h1>Every decision, <span class="grad">explained, evidenced and owned.</span></h1>
         <p class="lead">Traceura is decision intelligence for quality and validation teams. It connects your procedures, evidence and expert judgement, so every change-impact, validation and release decision is fast to make and easy to defend.</p>
         <div class="cta-row">
-          <a class="btn btn-primary" href="#contact">Book a conversation →</a>
+          <a class="btn btn-primary" href="#contact">Book a 20-minute discovery call →</a>
           <a class="btn btn-ghost" href="#how">See how it works</a>
         </div>
         <div class="hero-note"><span>Human-approved, always</span><span>Fully traceable</span><span>Built for inspection</span></div>
@@ -434,19 +434,18 @@
     <div class="wrap">
       <div class="box book rv">
         <div class="book-copy">
-          <h2>Book a conversation</h2>
-          <p>Tell us a little about your team and what you're working on. We'll reply within one working day to arrange a time.</p>
+          <h2>Book a 20-minute discovery call</h2>
+          <p>Tell us how your team handles change impact and validation evidence today. We'll reply within one working day to arrange a time.</p>
           <ul class="book-points">
-            <li>30-minute call with the Traceura team</li>
-            <li>A walkthrough built around your change and validation process</li>
-            <li>No obligation, and nothing confidential needed</li>
+            <li>20 minutes with the Traceura team. A conversation, not a sales pitch</li>
+            <li>A walkthrough on a synthetic change case</li>
+            <li>No obligation, and no confidential documents needed</li>
           </ul>
           <p class="book-alt">Prefer email? <a href="mailto:founder@traceura.com?subject=Traceura%20conversation">founder@traceura.com</a></p>
         </div>
-        <form id="book-form" class="book-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
-          <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY">
-          <input type="hidden" name="subject" value="New conversation request from traceura.com">
-          <input type="hidden" name="from_name" value="Traceura website">
+        <form id="book-form" class="book-form" action="https://formsubmit.co/ajax/founder@traceura.com" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="New discovery call request from traceura.com">
+          <input type="hidden" name="_template" value="table">
           <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <div class="row2">
             <label>Full name<input name="name" required maxlength="100" autocomplete="name"></label>
@@ -456,12 +455,15 @@
             <label>Company<input name="company" required maxlength="120" autocomplete="organization"></label>
             <label>Role<input name="role" maxlength="120" autocomplete="organization-title" placeholder="e.g. Head of CSV"></label>
           </div>
+          <label>Area of interest<select name="interest">
+            <option>Change-impact assessment</option><option>Right-sizing validation scope</option><option>Evidence gaps before audits</option><option>Keeping validation records consistent</option><option>Something else</option>
+          </select></label>
           <label>Preferred time<select name="preferred_time">
             <option>Any time</option><option>Morning (IST)</option><option>Afternoon (IST)</option><option>Morning (UK)</option><option>Afternoon (UK)</option>
           </select></label>
-          <label>What would you like to discuss?<textarea name="message" rows="4" maxlength="2000" placeholder="e.g. Speeding up change-impact assessments for our LIMS and QMS"></textarea></label>
-          <label class="consent"><input type="checkbox" name="consent" required> I agree Traceura may use these details to reply to my request.</label>
-          <button class="btn btn-primary" type="submit">Request a conversation →</button>
+          <label>What would you like to discuss?<textarea name="message" rows="4" maxlength="2000" placeholder="e.g. When an SOP changes, finding every validation document it affects"></textarea></label>
+          <label class="consent"><input type="checkbox" name="consent" required> I agree Traceura may use these details to reply to my request. They are sent to us by email through FormSubmit and are not shared with anyone else.</label>
+          <button class="btn btn-primary" type="submit">Request a discovery call →</button>
           <p class="form-status" role="status" aria-live="polite"></p>
         </form>
       </div>
@@ -474,7 +476,7 @@
     <a class="brand" href="#top">
       <img class="logo-mark" src="assets/traceura-mark.png" alt="" width="34" height="34"><img class="logo-word" src="assets/traceura-wordmark.png" alt="Traceura" height="18">
     </a>
-    <nav><a href="#help">What we do</a><a href="#how">How it works</a><a href="#why">Why Traceura</a><a href="mailto:founder@traceura.com">Contact</a></nav>
+    <nav><a href="#help">What we do</a><a href="#how">How it works</a><a href="#why">Why Traceura</a><a href="#contact">Contact</a><a href="https://www.linkedin.com/company/traceura" rel="noopener">LinkedIn</a></nav>
     <span>© 2026 Traceura · Decision Intelligence for Regulated Enterprises</span>
   </div>
 </footer>
@@ -498,9 +500,9 @@
       if(f.botcheck.checked) return;
       btn.disabled=true; st.className='form-status'; st.textContent='Sending\u2026';
       var data={}; new FormData(f).forEach(function(v,k){ if(k!=='botcheck') data[k]=v; });
-      data.replyto=data.email;
+      data._replyto=data.email;
       fetch(f.action,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)})
-        .then(function(r){return r.json().then(function(j){return {ok:r.ok&&j.success};});})
+        .then(function(r){return r.json().then(function(j){return {ok:r.ok&&(j.success===true||j.success==='true')};});})
         .then(function(r){
           if(r.ok){ f.reset(); st.className='form-status ok'; st.textContent='Thank you \u2014 we\u2019ve received your request and will reply within one working day.'; }
           else { throw 0; }
