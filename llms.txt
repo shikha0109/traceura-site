@@ -18,6 +18,7 @@
 
 ## Articles
 - [How to right-size validation with FDA's Computer Software Assurance approach](https://traceura.com/insights/right-size-validation-computer-software-assurance.html)
+- [What the EU's draft Annex 22 means for AI in GMP decisions](https://traceura.com/insights/eu-gmp-annex-22-ai-in-gmp-decisions.html)
 
 ## Contact
 - Website: https://traceura.com

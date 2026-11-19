@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What the EU's Draft Annex 22 Means for AI in GMP Decisions | Traceura</title>
+<meta name="description" content="EU GMP Annex 22 on artificial intelligence is still a draft. What it says about AI in critical and non-critical GMP uses, what it expects for validation and human oversight, and what quality teams can do now.">
+<link rel="canonical" href="https://traceura.com/insights/eu-gmp-annex-22-ai-in-gmp-decisions.html">
+<meta property="og:title" content="What the EU's draft Annex 22 means for AI in GMP decisions">
+<meta property="og:description" content="Annex 22 is still a draft. What it says about AI in GMP, and what quality teams can do now.">
+<meta property="og:url" content="https://traceura.com/insights/eu-gmp-annex-22-ai-in-gmp-decisions.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://traceura.com/assets/traceura-logo.jpg">
+<meta name="theme-color" content="#02142d">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"What the EU's draft Annex 22 means for AI in GMP decisions","description":"EU GMP Annex 22 on artificial intelligence is still a draft. What it says about AI in critical and non-critical GMP uses, what it expects for validation and human oversight, and what quality teams can do now.","datePublished":"2026-11-19","dateModified":"2026-11-19","author":{"@type":"Organization","name":"Traceura","url":"https://traceura.com/"},"publisher":{"@type":"Organization","name":"Traceura","logo":{"@type":"ImageObject","url":"https://traceura.com/assets/apple-touch-icon.png"}},"mainEntityOfPage":"https://traceura.com/insights/eu-gmp-annex-22-ai-in-gmp-decisions.html"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#02142d;--navy-2:#061d3d;--edge:rgba(255,255,255,.08);--ink:#0b1527;--body:#2f3e58;--muted:#62728d;--line:#e2e8f1;--soft:#f5f8fc;--cyan:#22d3ee;--cyan-ink:#0b7a92}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:#fff;line-height:1.7;-webkit-font-smoothing:antialiased}
+  a{color:var(--cyan-ink)}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+  header{position:sticky;top:0;z-index:20;background:rgba(2,20,45,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--edge)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:70px;gap:20px}
+  .brand{display:flex;align-items:center;gap:11px;text-decoration:none}
+  .logo-mark{width:34px;height:34px;object-fit:contain}.logo-word{height:18px;width:auto}
+  .btn{display:inline-block;padding:10px 18px;border-radius:10px;font-weight:600;font-size:14px;text-decoration:none;background:var(--cyan);color:#04213a}
+  .hero{background:linear-gradient(180deg,var(--navy),var(--navy-2));color:#fff;padding:72px 0 64px}
+  .crumb{font-size:13px;color:#8ea2c3;margin-bottom:18px}.crumb a{color:#8ea2c3;text-decoration:none}
+  .hero h1{font-family:Sora,sans-serif;font-size:clamp(30px,4.2vw,46px);line-height:1.15;letter-spacing:-.015em;max-width:860px}
+  .dek{color:#bccbe2;font-size:19px;max-width:720px;margin-top:18px}
+  .meta{color:#8ea2c3;font-size:14px;margin-top:22px}
+  article{max-width:740px;margin:0 auto;padding:56px 24px 40px}
+  article h2{font-family:Sora,sans-serif;font-size:26px;line-height:1.25;margin:44px 0 14px;color:var(--ink)}
+  article h3{font-size:18px;margin:28px 0 8px}
+  article p{color:var(--body);font-size:17px;margin:0 0 16px}
+  article ul,article ol{margin:0 0 18px 22px;color:var(--body);font-size:17px}
+  article li{margin:6px 0}
+  .key{background:var(--soft);border-left:3px solid var(--cyan);border-radius:8px;padding:18px 20px;margin:24px 0}
+  .key p{margin:0}
+  table{width:100%;border-collapse:collapse;margin:16px 0 24px;font-size:15px}
+  th,td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--line)}
+  th{background:var(--soft);font-weight:600;color:var(--ink)}
+  td{color:var(--body)}
+  .check li{list-style:none;position:relative;padding-left:4px}
+  .check{margin-left:6px}
+  .check li::before{content:"\2610";position:absolute;left:-22px;color:var(--cyan-ink)}
+  .cta{background:linear-gradient(135deg,var(--navy),#0d2b57);color:#fff;border-radius:18px;padding:34px;margin:44px 0 10px}
+  .cta h2{color:#fff;margin:0 0 10px;font-size:24px}
+  .cta p{color:#bccbe2;margin-bottom:20px}
+  .note{font-size:14px!important;color:var(--muted)!important;border-top:1px solid var(--line);padding-top:18px;margin-top:34px}
+  .sources li{font-size:15px}
+  footer{padding:36px 0;color:#8ea2c3;font-size:14px;background:var(--navy)}
+  footer .row{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+  footer a{color:#8ea2c3;text-decoration:none;margin-left:18px}
+  @media (max-width:640px){.wrap{padding:0 16px}article{padding:40px 16px}.hero{padding:52px 0 44px}table{font-size:14px}th,td{padding:10px 8px}.nav .btn{display:none}footer a{margin:0 14px 0 0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="../" aria-label="Traceura home"><img class="logo-mark" src="../assets/traceura-mark.png" alt="" width="34" height="34"><img class="logo-word" src="../assets/traceura-wordmark.png" alt="Traceura" height="18"></a>
+    <a class="btn" href="../#contact">Book a discovery call</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="crumb"><a href="../">Traceura</a> / Insights</p>
+    <h1>What the EU's draft Annex 22 means for AI in GMP decisions</h1>
+    <p class="dek">Annex 22 is not law yet, but its direction is clear. Here is what the draft says, what it expects when AI touches GMP, and what quality teams can sensibly do now.</p>
+    <p class="meta">The Traceura team · 19 November 2026 · 7-minute read</p>
+  </div>
+</section>
+
+<article>
+  <div class="key"><p><strong>In short:</strong> the draft allows fixed, deterministic AI models in critical GMP applications if they are properly validated. It keeps self-learning models, generative AI and large language models out of critical decisions, and allows them in non-critical work only with a qualified person in the loop. Whatever the final text says, documented human oversight is where this is heading.</p></div>
+
+  <h2>Where things stand</h2>
+  <p>The European Commission and EMA published the draft of a new GMP Annex 22 on artificial intelligence in July 2025, alongside drafts of a revised Annex 11 (computerised systems) and Chapter 4 (documentation). Public consultation ran from 7 July to 7 October 2025 and drew a large number of comments. EMA held an expert workshop in mid-2026, and its work plan targets final text by the end of 2026.</p>
+  <p>As of this article, Annex 22 is <strong>still a draft</strong>. It is not part of EudraLex Volume 4 and is not enforceable. The final wording may change, especially on generative AI. Treat what follows as the direction of travel, not settled rules.</p>
+
+  <h2>What is in scope, and what is not</h2>
+  <table>
+    <thead><tr><th>Type of AI</th><th>Critical GMP use (direct impact on product quality, patient safety or data integrity)</th><th>Non-critical use</th></tr></thead>
+    <tbody>
+      <tr><td>Static, deterministic models (parameters fixed in use)</td><td>Allowed, if validated</td><td>Allowed</td></tr>
+      <tr><td>Dynamic models that keep learning in use</td><td>Not allowed in the draft</td><td>Allowed with oversight</td></tr>
+      <tr><td>Generative AI and large language models</td><td>Not allowed in the draft</td><td>Allowed, with a qualified person reviewing outputs and taking responsibility</td></tr>
+    </tbody>
+  </table>
+  <p>In practice, an AI tool that drafts a deviation summary for a person to review sits very differently from one that decides whether a batch passes.</p>
+
+  <h2>What the draft expects for AI in critical use</h2>
+  <ul>
+    <li><strong>A documented intended use,</strong> approved by a process expert before testing starts, describing the inputs, expected variation and limitations.</li>
+    <li><strong>Acceptance criteria set in advance.</strong> The model should perform at least as well as the process it replaces, which means knowing how well the current process performs.</li>
+    <li><strong>Independent test data,</strong> kept separate from training data by technical and procedural controls, with a four-eyes principle for anyone who has seen the test set.</li>
+    <li><strong>Explainability:</strong> recording which features drove a result, and reviewing that as part of approving test results.</li>
+    <li><strong>Confidence:</strong> logging a confidence score where applicable, and considering an "undecided" outcome rather than forcing a low-confidence answer.</li>
+    <li><strong>Change control and monitoring:</strong> assessing changes to the model, the system or the process that feeds it, and watching for drift in the input data.</li>
+  </ul>
+
+  <h2>What it means for non-critical uses</h2>
+  <p>Most practical AI uses in quality today are assistive: drafting summaries, finding related records, suggesting where to look. The draft permits these, provided a qualified person reviews the output and remains accountable for what happens next. That responsibility needs to be real and documented, not a rubber stamp.</p>
+
+  <h2>Five things quality teams can do now</h2>
+  <ol>
+    <li><strong>Inventory where AI is already used,</strong> including AI features inside existing vendor software, and note what each one does.</li>
+    <li><strong>Classify each use as critical or non-critical</strong> using your own risk framework, and write down why.</li>
+    <li><strong>Define what human oversight means</strong> for each non-critical use: who reviews, what they check, and how their decision is recorded.</li>
+    <li><strong>Ask suppliers direct questions:</strong> Is the model fixed or does it keep learning? How was it tested, and on what data? Can it show why it gave an answer? What happens when it is unsure?</li>
+    <li><strong>Watch the companion drafts too.</strong> The proposed Annex 11 revision is far more detailed than the 2011 version and makes cybersecurity an explicit GMP topic.</li>
+  </ol>
+
+  <div class="cta">
+    <h2>AI recommends. People decide.</h2>
+    <p>That principle sits at the centre of how we are building Traceura for quality and CSV teams: recommendations that show their reasoning and sources, and a qualified reviewer who approves, edits or overrides every one. If you are working out where AI fits in your quality processes, we'd like to hear how you are approaching it.</p>
+    <a class="btn" href="../#contact">Book a 20-minute discovery call</a>
+  </div>
+
+  <p class="note">This article is general information based on the public consultation draft and published commentary. It is not regulatory or legal advice. Annex 22 has not been adopted and its final text may differ. Always refer to the official EudraLex publications.</p>
+  <h3>Sources</h3>
+  <ul class="sources">
+    <li><a href="https://www.pharmanow.live/pharma-it/annex-22-not-law-yet-what-to-invest" rel="noopener">PharmaNow: Annex 22 is not law yet (12 August 2026)</a></li>
+    <li><a href="https://intuitionlabs.ai/articles/eu-gmp-annex-22-ai-compliance-pharma-2" rel="noopener">IntuitionLabs: EU GMP Annex 22, AI compliance in pharmaceutical manufacturing (5 August 2026)</a></li>
+    <li><a href="https://www.europeanpharmaceuticalreview.com/what-annex-22-spells-for-ai-in-gmp-manufacturing/2135686.article" rel="noopener">European Pharmaceutical Review: What Annex 22 spells for AI in GMP manufacturing</a></li>
+  </ul>
+  <p style="margin-top:22px">Also read: <a href="right-size-validation-computer-software-assurance.html">How to right-size validation with FDA's Computer Software Assurance approach</a></p>
+</article>
+
+<footer>
+  <div class="wrap row">
+    <span>© 2026 Traceura · Decision Intelligence for Regulated Enterprises</span>
+    <nav><a href="../">Home</a><a href="../#contact">Contact</a><a href="https://www.linkedin.com/company/traceura" rel="noopener">LinkedIn</a></nav>
+  </div>
+</footer>
+</body>
+</html>
