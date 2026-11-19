@@ -16,6 +16,9 @@
 ## Status
 - Early stage. Traceura is looking for conversations with quality and validation leaders. It does not claim customers, certifications or regulatory approvals.
 
+## Articles
+- [How to right-size validation with FDA's Computer Software Assurance approach](https://traceura.com/insights/right-size-validation-computer-software-assurance.html)
+
 ## Contact
 - Website: https://traceura.com
 - Book a 20-minute discovery call: https://traceura.com/#contact
