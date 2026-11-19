@@ -17,6 +17,7 @@
 ## Who it is for
 - Heads of CSV and validation, QA and site quality, digital and IT quality, and quality systems teams
 - Pharmaceutical, biotech, CDMO and medical-device manufacturers
+- Covers any enterprise or GxP software that is in audit scope or comes into scope: quality, lab, manufacturing, ERP, cloud and SaaS, custom tools, infrastructure and AI/ML models
 
 ## Status
 - Early stage. Traceura is looking for conversations with quality and validation leaders. It does not claim customers, certifications or regulatory approvals.
